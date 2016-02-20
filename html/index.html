@@ -1,0 +1,500 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>我的主页</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav---->
+		
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>home</span></a></li>
+										<li><a class="scroll" href="#about"><span>about</span></a></li>
+										
+										<li><a class="scroll" href="#blog"><span>portfolio</span></a></li>
+										
+										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<img src="images/me.png" alt=""/>
+			</div>
+			<div class="banner-right">
+				<h1>I’M CHEN YAN</h1>
+				<div class="border"></div>
+				<h2>前端工程师</h2>
+				<a href="#">View My Site</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>My name is Chenyan, a front end engineer.
+			I have a young and knowledge. Young may mean lack of experience, but also means that young enthusiasm and vitality, I am confident to depend on their ability and knowledge in the work after graduation and overcome various difficulties in life, the life value of the self-realization and the pursuit of goals.
+		
+			Graduated from the college of luliang, access to the front end work has been a year, during the period of school, I developed a positive and optimistic attitude, cultivate the good study way, it is of great help to my work and life, my usual hobby is listening to music, watching the news, this is eye-opening a good way to relax, front knowledge develop so fast, to keep up with the pace of The Times we have to keep on learning, the work is accumulation, since I would be please enjoy together.</p>
+		<ul>
+			<li><a class="fb" href="#"></a></li>
+			<li><a class="twit" href="#"></a></li>
+			<li><a class="in" href="#"></a></li>
+			<li><a class="drib" href="#"></a></li>
+			<li><a class="goog" href="#"></a></li>
+			<li><a class="pin" href="#"></a></li>
+		</ul>
+	</div>
+</div>
+<!--//about-->
+
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center">
+	<div class="container">
+		<h3>MY SKILLS</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>HTML</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>CSS</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>JAVASCRIPT</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>JQURY</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>CSS3</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>Html5</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-7"></div>
+						<p>LESS</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-8"></div>
+						<p>GRUNT</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-9"></div>
+						<p>BOWER</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-10"></div>
+						<p>ANGULAR</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#9CA51F', '#ffffff'], ['#9CA51F', '#ffffff'], ['#9CA51F', '#ffffff'], ['#9CA51F', '#ffffff'], ['#9CA51F', '#ffffff'], ['#9CA51F', '#ffffff'],['#9CA51F', '#ffffff'],['#9CA51F', '#ffffff'],['#9CA51F', '#ffffff'],['#9CA51F', '#ffffff']
+									];
+								for (var i = 1; i <= 10; i++) {
+										var child = document.getElementById('circles-' + i);
+									if(i==1||i==2||i==3||i==4){
+										percentage = 90;
+
+									}
+									if(i==5){
+										percentage = 85;
+									}
+									if(i==6){
+										percentage = 80;
+									}
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+									
+									
+								}
+						
+				</script>
+		</div>
+	</div>	
+</div>
+<!--//my skill-->
+<!-- <div class="my-skill-back"></div> -->
+
+
+<!-- <div class="services-back"></div> -->
+
+<!--blog-->
+<div class="blog" id="blog">
+	<div class="container">
+		<div class="blog-info text-center">
+			<h3>WEB</h3>
+			<div class="strip text-center"><img src="images/blog.png" alt=" "/></div>
+		</div>
+		<div class="blog-grids">
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="http://chenyan0.github.io/Tmall/" target="_blank"><img src="images/web-mao.png" alt=""/></a>
+					<div class="blog-text">
+						<a href="http://chenyan0.github.io/Tmall" target="_blank">technology:html+css+jquery</a>
+						<div class="stripa"></div>
+						<p>Web project-Website</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="http://chenyan0.github.io/apple" target="_blank"><img src="images/web-iphone.png" alt=""/></a>
+					<div class="blog-text">
+						<a href="http://chenyan0.github.io/apple" target="_blank">technology:html+css+jquery+less</a>
+						<div class="stripa"></div>
+						<p>Web project-Website</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="http://chenyan0.github.io/MI" target="_blank"><img src="images/web-mi.png" alt=""/></a>
+					<div class="blog-text">
+						<a href="http://chenyan0.github.io/MI" target="_blank">technology:html+css+javascript</a>
+						<div class="stripa"></div>
+						<p>Web project-Website</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="http://chenyan0.github.io/five" target="_blank"><img src="images/wuziqi.png" alt=""/></a>
+					<div class="blog-text">
+						<a href="http://chenyan0.github.io/five" target="_blank">technology:html+css+javascript</a>
+						<div class="stripa"></div>
+						<p>Web project-Game</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="http://xingcan.coding.io" target="_blank"><img src="images/xingcan.png" alt=""/></a>
+					<div class="blog-text">
+						<a href="http://xingcan.coding.io" target="_blank">technology:html+css+phpcms+jquery</a>
+						<div class="stripa"></div>
+						<p>Web project-Website</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="http://chenyan0.github.io/jisuanqi" target="_blank"><img src="images/web-jisuanqi.png" alt=""/></a>
+					<div class="blog-text">
+						<a href="http://chenyan0.github.io/jisuanqi"target="_blank">technology:html+css+javascript</a>
+						<div class="stripa"></div>
+						<p>Web project-Apply</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="http://chenyan0.github.io/Poker" target="_blank"><img src="images/web-poker.png" alt=""/></a>
+					<div class="blog-text">
+						<a href="http://chenyan0.github.io/Poker" target="_blank">technology:html+css+javascript</a>
+						<div class="stripa"></div>
+						<p>Web project-Game</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="http://chenyan0.github.io/TypeGame1" target="_blank"><img src="images/typegame1.png" alt=""/></a>
+					<div class="blog-text">
+						<a href="http://chenyan0.github.io/TypeGame1" target="_blank">technology:面向对象思想</a>
+						<div class="stripa"></div>
+						<p>Web project-Game</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="http://chenyan0.github.io/snake" target="_blank"><img src="images/snake.png" alt=""/></a>
+					<div class="blog-text">
+						<a href="http://chenyan0.github.io/snake" target="_blank">technology:html+css+jquery</a>
+						<div class="stripa"></div>
+						<p>Web project-Game</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="http://chenyan0.github.io/painter" target="_blank"><img src="images/huaban.png" alt=""/></a>
+					<div class="blog-text">
+						<a href="http://chenyan0.github.io/painter" target="_blank">technology:canvas+面向对象思想</a>
+						<div class="stripa"></div>
+						<p>Web project-Apply</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="http://chenyan0.github.io/note" target="_blank"><img src="images/note.png" alt=""/></a>
+					<div class="blog-text">
+						<a href="http://chenyan0.github.io/note" target="_blank">technology:html+css+bootstrap</a>
+						<div class="stripa"></div>
+						<p>Web project-Apply</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="http://chenyan0.github.io/note" target="_blank"><img src="images/note.png" alt=""/></a>
+					<div class="blog-text">
+						<a href="http://chenyan0.github.io/note" target="_blank">technology:html+css+bootstrap</a>
+						<div class="stripa"></div>
+						<p>APP</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//blog-->
+<!--portfolio-->
+<div class="gallery-section text-center" id="portfolio">
+	<div class="container">
+		<h3>PS/AI</h3>
+		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
+		<p>Success is not merely, only to have the opportunity to prepare the people, the front have inseparable relations with the design, the design knowledge is also very necessary, so take is the design work I have done.</p>
+		<div class="gallery-grids">
+			<div class="top-gallery">
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/1.jpg" class="swipebox"><img src="images/1.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							
+							<h4>DESIGN</h4>
+							<div class="button"><a href="images/1.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/4.jpg" class="swipebox"><img src="images/4.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							
+							<h4>DESIGN</h4>
+							<div class="button"><a href="images/4.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/5.jpg" class="swipebox"><img src="images/5.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							
+							<h4>DESIGN</h4>
+							<div class="button"><a href="images/5.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/18.jpg" class="swipebox"><img src="images/18.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							
+							<h4>DESIGN</h4>
+							<div class="button"><a href="images/18.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/9.jpg" class="swipebox"><img src="images/9.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							
+							<h4>DESIGN</h4>
+							<div class="button"><a href="images/9.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/11.jpg" class="swipebox"><img src="images/11.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						
+							<h4>DESIGN</h4>
+							<div class="button"><a href="images/11.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="clearfix"> </div>
+			</div>
+				<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+		</div>
+	</div>
+</div>
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="contact-grids">
+			<div class="col-md-5 contact-left">
+				<h3>Say Hi to Me</h3>
+				<div class="stripb"></div>
+				<ul>
+					<li>Name:ChenYan</li>
+					<li>Address:BEIJING</li>
+					<li>Tel:18335832141</li>
+					<li>QQ:870322979</li>
+					<li><a href="mailto:info@example.com">18335832141@qq.com</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-md-7 contact-right">
+				<h3>Work link</h3>
+				<div class="stripb"></div>
+				<div class="site-link"></div>
+				<div class="app"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
