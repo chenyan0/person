@@ -1864,8 +1864,8 @@ border:none;
 }
 /*-- responsive media queries --*/
 @media(max-width:1440px){
-.comment-icons ul li {
-  margin: 12px 15px 12px 0;
+  .comment-icons ul li {
+   margin: 12px 15px 12px 0;
   }
 	.top-header {
 	  margin-top: 30px;
@@ -1901,7 +1901,6 @@ border:none;
 	.my-skill-back {
 	  min-height: 82px;
 	}
-
 }
 @media(max-width:1366px){
 	.about-back {
@@ -1964,6 +1963,14 @@ border:none;
 	}
 }
 @media(max-width:1024px){
+  .contact-left{
+    width: 50%;
+    float: left;
+  }
+  .contact-right{
+    width: 50%;
+    float: left;
+  }
 	.top-nav {
 	  margin-top: 8px;
 	}
@@ -3596,7 +3603,7 @@ border:none;
 	.about ul li a.fb:hover {
 	  background: url(../images/a4.png) no-repeat center center;
     background-size: cover;
-}	  
+  }	  
 	.about ul li a.pin {
 	  background: url(../images/a5.png) no-repeat center center;
 	  width: 33px;
@@ -3629,7 +3636,7 @@ border:none;
 	.about ul li a.goog:hover {
 	  background: url(../images/a10.png) no-repeat center center;
     background-size: cover;
-}	  
+  }	  
 	.about ul li a.in {
 	  background: url(../images/a11.png) no-repeat center center;
 	  width: 33px;
