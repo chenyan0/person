@@ -2842,7 +2842,7 @@ border:none;
 	.blog-text-info:nth-child(12),.blog-text-info:nth-child(10),.blog-text-info:nth-child(8),.blog-text-info:nth-child(6),.blog-text-info:nth-child(4),.blog-text-info:nth-child(2){
 	  margin-right: 0;
 	}
-	.blog-text-info:nth-child(3){
+	.blog-text-info:nth-child(3),.blog-text-info:nth-child(9){
 	  margin-right: 14px;
 	}
 	.blog-pos {
