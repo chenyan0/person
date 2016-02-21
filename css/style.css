@@ -2673,7 +2673,7 @@ border:none;
 	  padding: 0;
 	  margin-right: 14px;
 	}
-	.blog-text-info:nth-child(3),.blog-text-info:nth-child(6),.blog-text-info:nth-child(9)  {
+	.blog-text-info:nth-child(3),.blog-text-info:nth-child(6),.blog-text-info:nth-child(9),.blog-text-info:nth-child(12)  {
 	  margin-right: 0;
 	}
 	.blog-grid a {
@@ -2839,7 +2839,7 @@ border:none;
 	  float: left;
 	  width: 48.2%;
 	  }
-	.blog-text-info:nth-child(6),.blog-text-info:nth-child(4),.blog-text-info:nth-child(2){
+	.blog-text-info:nth-child(12),.blog-text-info:nth-child(10),.blog-text-info:nth-child(8),.blog-text-info:nth-child(6),.blog-text-info:nth-child(4),.blog-text-info:nth-child(2){
 	  margin-right: 0;
 	}
 	.blog-text-info:nth-child(3){
