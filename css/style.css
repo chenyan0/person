@@ -3324,14 +3324,12 @@ border:none;
 	}
 }
 @media(max-width:436px){
-  .stripb{
-    margin: 10px auto 20px;
-  }
+  
   .contact-left ul li{
     text-align: center;
   }
   .site-link, .app{
-    margin: 0 auto;
+    margin: 10px auto;
     float: none;
   }
   .col-md-4.sample-page-right {
